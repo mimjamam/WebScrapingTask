@@ -73,3 +73,4 @@ class BooksSpider(scrapy.Spider):
     def handle_error(self, failure):
         self.logger.error("Request failed: %s", failure)
 
+
