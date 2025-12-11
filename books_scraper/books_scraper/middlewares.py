@@ -1,4 +1,4 @@
-from scrapy import signals
+﻿from scrapy import signals
 
 from itemadapter import ItemAdapter
 
@@ -46,3 +46,4 @@ class BooksScraperDownloaderMiddleware:
 
     def spider_opened(self, spider):
         spider.logger.info("Spider opened: %s" % spider.name)
+

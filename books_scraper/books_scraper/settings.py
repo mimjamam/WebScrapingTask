@@ -1,4 +1,4 @@
-BOT_NAME = "books_scraper"
+﻿BOT_NAME = "books_scraper"
 
 SPIDER_MODULES = ["books_scraper.spiders"]
 NEWSPIDER_MODULE = "books_scraper.spiders"
@@ -19,3 +19,5 @@ AUTOTHROTTLE_TARGET_CONCURRENCY = 1.0
 AUTOTHROTTLE_DEBUG = False
 
 FEED_EXPORT_ENCODING = "utf-8"
+
+
